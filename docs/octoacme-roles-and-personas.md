@@ -79,3 +79,98 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
 
+---
+
+## Additional Cross-functional Personas (added)
+
+The following personas are commonly present on cross-functional projects at OctoAcme but are not always documented in project-level artifacts. Adding these clarifies accountabilities and handoff points.
+
+### UX Designer
+
+Role Summary:
+Ensures the product is intuitive, accessible, and user-centered throughout development.
+
+Responsibilities:
+- Lead user research and usability testing
+- Produce wireframes, prototypes, and visual assets
+- Translate research into user stories and acceptance criteria for PdM
+- Define accessibility baseline and track accessibility tasks
+- Validate implemented UI with usability checks
+
+Interaction:
+- Works closely with Product Managers (PdMs) to define user problems and success criteria
+- Partners with Developers and QA to ensure designs are feasible and testable
+- Handoffs: provides design specs and acceptance criteria before implementation; participates in design reviews and demos
+
+### DevOps Engineer
+
+Role Summary:
+Builds and maintains deployment pipelines, infrastructure, and CI/CD practices to enable reliable delivery.
+
+Responsibilities:
+- Automate builds, deployments, and monitoring
+- Maintain infrastructure as code and environment consistency
+- Define and operate observability and incident runbooks
+- Harden deployment pipelines and manage secrets/credentials
+
+Interaction:
+- Coordinates with Developers for environment requirements and troubleshooting
+- Works with QA to ensure environments allow repeatable testing
+- Supports Releases and on-call incident response
+- Handoffs: validates release readiness and runbook updates prior to production deploys
+
+### Data Analyst
+
+Role Summary:
+Provides data-driven insights to inform product decisions and measure progress.
+
+Responsibilities:
+- Define key metrics and build dashboards for the product and project
+- Instrument events and validate telemetry alongside Developers
+- Analyze experiments (A/B tests) and support success criteria evaluation
+- Translate findings into recommended actions and backlog items
+
+Interaction:
+- Partners with PdMs to define metrics and success criteria
+- Works with Developers to implement reliable instrumentation
+- Delivers reports to stakeholders and feeds results back into planning
+
+### Security Lead
+
+Role Summary:
+Protects systems, data, and users from security threats across the project lifecycle.
+
+Responsibilities:
+- Define security requirements and review designs
+- Conduct threat modeling and security-focused code reviews
+- Ensure compliance checks and coordinate penetration testing where needed
+- Respond to security incidents and coordinate disclosures
+
+Interaction:
+- Early engagement in planning for threat modeling with PdM/PM and Architects
+- Collaborates with Developers to remediate vulnerabilities
+- Coordinates with DevOps for secure deployment practices and secret management
+- Handoffs: performs security sign-off for releases that meet the defined control set
+
+### Business Analyst (BA)
+
+Role Summary:
+Translates business needs into actionable and testable requirements.
+
+Responsibilities:
+- Elicit and document business requirements, workflows, and rules
+- Break down high-level requirements into acceptance criteria
+- Validate requirements with stakeholders and the delivery team
+- Support UAT and sign-off activities
+
+Interaction:
+- Works closely with PdMs and Stakeholders to clarify goals
+- Partners with Developers and QA to ensure acceptance criteria are testable
+- Handoffs: delivers detailed requirement artifacts prior to sprint planning and supports clarification during implementation
+
+---
+
+## Notes on usage and ownership
+- These persona entries are intended to be lightweight, practical, and actionable.
+- When you name roles on a project one person should be the primary owner for that responsibility (can be shared but ownership should be clear).
+- Use the role-handoff-checklists.md (in docs/) for specific handoff and checklist templates to make interactions repeatable and visible.
